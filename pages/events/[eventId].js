@@ -9,7 +9,6 @@ function EventDetailPage() {
   const router = useRouter()
 
   const enventId = router.query.eventId
-  console.log(enventId)
 
   const event = getEventById(enventId)
 
